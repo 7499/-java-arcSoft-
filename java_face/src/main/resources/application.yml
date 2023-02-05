@@ -1,0 +1,15 @@
+server:
+  port: 8089
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/java-face?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+face:
+  appId:
+  sdkKey:
+  libDir: D:/arcsoft_lib
+  same: 0.92  #匹配值 小于该值认为不是一个人  可自行调控  0-1
+
